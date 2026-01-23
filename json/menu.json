@@ -1,0 +1,47 @@
+{
+  "pizzas": [
+    {
+      "name": "Meat Lover",
+      "ingredients": "Pizza Sauce, Blend Cheese, Genea Salami, Ham, Pepperoni, Italian Sausage, Bacon",
+      "prices": { "Small": "$14.50", "Medium": "$20.99", "Large": "$25.50" }
+    },
+    {
+      "name": "Ham & Pineapple",
+      "ingredients": "Pizza Sauce, Mozzarella Cheese, Ham & Pineapple",
+      "prices": { "Small": "$14.00", "Medium": "$19.99", "Large": "$23.99" }
+    },
+    {
+      "name": "Butter Chicken Pizza",
+      "ingredients": "Butter Chicken Sauce, Mozzarella Cheese & Chicken",
+      "prices": { "Small": "$14.50", "Medium": "$20.99", "Large": "$24.99" }
+    },
+    {
+      "name": "Tandoori Chicken Pizza",
+      "ingredients": "Pizza Sauce, Mozzarella Cheese, Mushroom, Green Pepper, Red Onions, Tomatoes & Garlic Roasted Chicken",
+      "prices": { "Small": "$14.50", "Medium": "$20.99", "Large": "$24.99" }
+    }
+  ],
+  "burgers": [
+    { "name": "Cheese Burger", "price": "$7.99" },
+    { "name": "Chicken Burger", "price": "$7.99" },
+    { "name": "Double Cheese Burger", "price": "$12.99" }
+  ],
+  "sides": [
+    { "name": "Fries", "price": "S-$4.99 | M-$5.99" },
+    { "name": "Butter Chicken Poutine", "price": "$10.50" },
+    { "name": "Canadian Poutine", "price": "$10.00" },
+    { "name": "Samosa Veg (2pcs)", "price": "$3.99" }
+  ],
+  "lunch": [
+    { "name": "Butter Chicken with Rice & Naan", "price": "$16.99" },
+    { "name": "Chicken Fried Rice", "price": "$10.99" },
+    { "name": "Indian Masala Tea", "price": "$3.50" }
+  ],
+  "milkshakes": [
+    { "name": "Mango, Strawberry, Banana, Chocolate, Vanilla", "price": "$4.99" }
+  ],
+  "contact_info": {
+    "phone": "+1 780-386-0088",
+    "address": "5007, 51 Ave, Lougheed, AB"
+  }
+}
