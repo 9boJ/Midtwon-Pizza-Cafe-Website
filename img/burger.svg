@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Burger illustration</title>
+  <desc id="desc">A stylized burger with lettuce, cheese and patty.</desc>
+  <defs>
+    <linearGradient id="bunTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffcc80" />
+      <stop offset="1" stop-color="#ffb74d" />
+    </linearGradient>
+    <linearGradient id="bunBottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffa726" />
+      <stop offset="1" stop-color="#fb8c00" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="58" fill="#880e4f" />
+  <!-- Top bun -->
+  <path d="M20 54 Q60 16 100 54 Q98 60 22 60 Z" fill="url(#bunTop)" />
+  <!-- Sesame seeds -->
+  <ellipse cx="46" cy="40" rx="2.2" ry="4" fill="#ffe0b2" />
+  <ellipse cx="60" cy="34" rx="2" ry="3.6" fill="#ffe0b2" />
+  <ellipse cx="74" cy="40" rx="2.2" ry="4" fill="#ffe0b2" />
+  <ellipse cx="54" cy="46" rx="1.8" ry="3.2" fill="#ffe0b2" />
+  <ellipse cx="68" cy="46" rx="1.8" ry="3.2" fill="#ffe0b2" />
+  <!-- Lettuce -->
+  <path d="M22 60 Q30 66 38 60 Q46 66 54 60 Q62 66 70 60 Q78 66 86 60 Q94 66 100 60 L100 64 L22 64 Z"
+        fill="#66bb6a" />
+  <!-- Cheese -->
+  <path d="M24 64 H96 L84 76 L72 64 L60 76 L48 64 L36 76 Z" fill="#ffeb3b" />
+  <!-- Patty -->
+  <rect x="22" y="76" width="76" height="10" rx="4" ry="4" fill="#5d4037" />
+  <!-- Bottom bun -->
+  <rect x="24" y="86" width="72" height="12" rx="6" ry="6" fill="url(#bunBottom)" />
+</svg>
