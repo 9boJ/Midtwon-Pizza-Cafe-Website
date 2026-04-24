@@ -1,44 +1,193 @@
 {
   "pizzas": [
     {
-      "name": "Meat Lover",
-      "ingredients": "Pizza Sauce, Blend Cheese, Genea Salami, Ham, Pepperoni, Italian Sausage, Bacon",
-      "prices": { "Small": "$14.50", "Medium": "$20.99", "Large": "$25.50" }
+      "name": "Pepperoni Pizza",
+      "ingredients": "Pizza Sauce, Mozza Cheese, Pepperoni",
+      "prices": { "Small": "$16", "Medium": "$21", "Large": "$25" }
+    },
+    {
+      "name": "Pepperoni Mushroom Pizza",
+      "ingredients": "Pizza Sauce, Mozza Cheese, Pepperoni & Mushroom",
+      "prices": { "Small": "$16", "Medium": "$22", "Large": "$26" }
+    },
+    {
+      "name": "Ham & Cheese",
+      "ingredients": "Pizza Sauce, Mozza Cheese & Ham",
+      "prices": { "Small": "$16", "Medium": "$21", "Large": "$25" }
     },
     {
       "name": "Ham & Pineapple",
-      "ingredients": "Pizza Sauce, Mozzarella Cheese, Ham & Pineapple",
-      "prices": { "Small": "$14.00", "Medium": "$19.99", "Large": "$23.99" }
+      "ingredients": "Pizza Sauce, Mozza Cheese, Ham & Pineapple",
+      "prices": { "Small": "$16", "Medium": "$21", "Large": "$26" }
+    },
+    {
+      "name": "Chicken Pizza",
+      "ingredients": "Pizza Sauce, Mozza Cheese, Corn, Green Pepper, Red Onions, Chicken",
+      "prices": { "Small": "$16", "Medium": "$21", "Large": "$27" }
     },
     {
       "name": "Butter Chicken Pizza",
-      "ingredients": "Butter Chicken Sauce, Mozzarella Cheese & Chicken",
-      "prices": { "Small": "$14.50", "Medium": "$20.99", "Large": "$24.99" }
+      "ingredients": "Butter Chicken Sauce, Chicken, Mozza Cheese",
+      "prices": { "Small": "$16", "Medium": "$21", "Large": "$26" }
+    },
+    {
+      "name": "Bacon Chicken Ranch",
+      "ingredients": "Ranch, Mozza Cheese, Bacon, Green Pepper, Red Onion & Chicken",
+      "prices": { "Small": "$17", "Medium": "$22", "Large": "$27" }
+    },
+    {
+      "name": "Steak Mushroom Pizza",
+      "ingredients": "Alfredo Sauce, Cheese Spread, Steak, Mushroom, Green Pepper, Red Onions, Mozza Cheese",
+      "prices": { "Small": "$17", "Medium": "$22", "Large": "$27" }
+    },
+    {
+      "name": "Canadian Pizza",
+      "ingredients": "Pizza Sauce, Mozza Cheese, Pepperoni, Ham, Green Pepper, Red Onions & Mushroom",
+      "prices": { "Small": "$17", "Medium": "$22", "Large": "$27" }
+    },
+    {
+      "name": "Meat Lover Pizza",
+      "ingredients": "Pizza Sauce, Blend Cheese, Genea Salami, Ham, Pepperoni, Italian Sausage, Bacon",
+      "prices": { "Small": "$17", "Medium": "$22", "Large": "$28" }
     },
     {
       "name": "Tandoori Chicken Pizza",
-      "ingredients": "Pizza Sauce, Mozzarella Cheese, Mushroom, Green Pepper, Red Onions, Tomatoes & Garlic Roasted Chicken",
-      "prices": { "Small": "$14.50", "Medium": "$20.99", "Large": "$24.99" }
+      "ingredients": "Pizza Sauce, Mozza Cheese, Mushroom, Green Pepper, Red Onions, Tomatoes, Roasted Garlic, Tandoori Chicken, Mozza Cheese & Indian Spice",
+      "prices": { "Small": "$17", "Medium": "$22", "Large": "$28" }
+    },
+    {
+      "name": "Chicken Club Pizza",
+      "ingredients": "Grilled Chicken, Canadian Ham, Bacon, Tomatoes, Hot Ranch, topped with Mozza Cheese (spicy)",
+      "prices": { "Small": "$17", "Medium": "$22", "Large": "$28" }
+    },
+    {
+      "name": "BBQ Chicken Pizza",
+      "ingredients": "BBQ Sauce, Mozza Cheese, Jalapeño, Green Pepper, Red Onions & Chicken (spicy)",
+      "prices": { "Small": "$17", "Medium": "$22", "Large": "$28" }
+    },
+    {
+      "name": "Mediterranean Pizza",
+      "ingredients": "Pizza Sauce, Spinach, Red Pepper, Red Onions, Kalamata, Feta Cheese & Mozza Cheese",
+      "prices": { "Small": "$17.50", "Medium": "$22", "Large": "$28" }
+    },
+    {
+      "name": "Veggie Pizza",
+      "ingredients": "Pizza Sauce, Sun-Dried Tomatoes, Spinach, Red & Green Pepper, Red Onions, Black Olives, Pineapple, Mushroom & Mozza Cheese",
+      "prices": { "Small": "$17", "Medium": "$21", "Large": "$27" }
+    },
+    {
+      "name": "Cheese Pizza",
+      "ingredients": "Pizza Sauce, Mozza Cheese, Parmesan Cheese & Cheddar Cheese",
+      "prices": { "Small": "$16", "Medium": "$21", "Large": "$25" }
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Super Cheesey Bread",
+      "ingredients": "Cheese Spread, Mozza Cheese & Blend Cheese",
+      "price": "$9.99"
+    },
+    {
+      "name": "Garlic Bread",
+      "ingredients": "Garlic Spread, Mozza Cheese & Blend Cheese & Garlic",
+      "price": "$9.99"
     }
   ],
   "burgers": [
-    { "name": "Cheese Burger", "price": "$7.99" },
-    { "name": "Chicken Burger", "price": "$7.99" },
-    { "name": "Double Cheese Burger", "price": "$12.99" }
+    { "name": "Cheese Burger", "price": "$8.99" },
+    { "name": "Chicken Burger", "price": "$8.99" },
+    { "name": "Veggie Burger", "price": "$8.99" },
+    { "name": "Hawaiian Burger", "price": "$9.99" },
+    { "name": "Double Cheese Burger", "price": "$13.99" },
+    { "name": "Extra Bacon", "price": "$1.50" },
+    { "name": "Extra Relish", "price": "$1.50" },
+    { "name": "Extra Gravy", "price": "$1.50" }
+  ],
+  "combos": [
+    { "name": "Burger & Fries", "price": "$13.50" },
+    { "name": "Burger & Onion Rings", "price": "$14.50" },
+    { "name": "Double Cheese Burger & Fries", "price": "$16.99" },
+    { "name": "Hot Hamburger & Fries", "ingredients": "Ground beef patty with gravy, fried onion with fries", "price": "$15.99" }
   ],
   "sides": [
-    { "name": "Fries", "price": "S-$4.99 | M-$5.99" },
-    { "name": "Butter Chicken Poutine", "price": "$10.50" },
+    { "name": "Fries", "price": "$5.99" },
+    { "name": "Onion Rings (7oz)", "price": "$5.99" },
+    { "name": "Fries & Onion Rings Mix", "price": "$7.50" },
+    {
+      "name": "Cajun Crispy Waffle Fries",
+      "ingredients": "Crispy lattice fries, Cajun seasoning",
+      "price": "$5.99"
+    },
+    {
+      "name": "Nachos",
+      "ingredients": "Tortilla chips, shredded cheese, black bean, red onion, jalapeños, corn, black olives & tomatoes with spices",
+      "price": "$9.99"
+    },
+    { "name": "Falafel (10 Pc)", "price": "$7.99" },
+    { "name": "Mozzarella Sticks (8 Pc)", "price": "$10.99" },
+    { "name": "Samosa Veg (4 Pc)", "price": "$7.99" },
+    {
+      "name": "Pickle Spear Dill (5 Pc)",
+      "ingredients": "Crispy & tangy fried pickle spears",
+      "price": "$6.99"
+    },
+    { "name": "Chicken Nuggets (10 Pc)", "price": "$12.99" },
+    { "name": "Fish & Chips", "price": "$14.99" },
+    { "name": "Chicken Fingers", "price": "$12.99" },
+    { "name": "Cream Cheese Jalapeño Poppers (5 Pc)", "price": "$12.99" }
+  ],
+  "poutine": [
     { "name": "Canadian Poutine", "price": "$10.00" },
-    { "name": "Samosa Veg (2pcs)", "price": "$3.99" }
+    { "name": "Butter Chicken Poutine", "price": "$12.99" }
+  ],
+  "wings": [
+    {
+      "name": "Chicken Wings (10)",
+      "ingredients": "Hot & Honey, Lemon Pepper, Sweet Chilli, Hot, Salt & Pepper, Honey Garlic, Pari-Pari, BBQ. Mix & match +$1",
+      "price": "$14.50"
+    },
+    {
+      "name": "Chicken Wings (20)",
+      "ingredients": "Hot & Honey, Lemon Pepper, Sweet Chilli, Hot, Salt & Pepper, Honey Garlic, Pari-Pari, BBQ. Mix & match +$1",
+      "price": "$27.99"
+    }
   ],
   "lunch": [
-    { "name": "Butter Chicken with Rice & Naan", "price": "$16.99" },
-    { "name": "Chicken Fried Rice", "price": "$10.99" },
-    { "name": "Indian Masala Tea", "price": "$3.50" }
+    { "name": "Butter Chicken & Rice", "price": "$16.99" },
+    { "name": "Small Butter Chicken & Rice", "price": "$11.99" },
+    { "name": "Naan Bread", "price": "$3.00" },
+    { "name": "Steam Basmati Rice", "price": "$3.99" },
+    { "name": "Jeera Fried Basmati Rice", "price": "$4.99" },
+    { "name": "Veg Fried Rice", "price": "$12.99" },
+    { "name": "Egg Fried Rice", "price": "$13.99" },
+    { "name": "Chicken Fried Rice", "price": "$14.99" }
   ],
-  "milkshakes": [
-    { "name": "Mango, Strawberry, Banana, Chocolate, Vanilla", "price": "$4.99" }
+  "milk_shakes": [
+    { "name": "Mango", "price": "$6.50" },
+    { "name": "Strawberry", "price": "$6.50" },
+    { "name": "Banana", "price": "$6.50" },
+    { "name": "Orange", "price": "$6.50" },
+    { "name": "Chocolate", "price": "$6.50" },
+    { "name": "Vanilla", "price": "$6.50" },
+    { "name": "Oreo Milkshake", "price": "$6.50" },
+    { "name": "Mix & match flavors", "ingredients": "Combine any milk shake flavors", "price": "+$1" }
+  ],
+  "cold_beer": [
+    { "name": "Budweiser (355ML Can)", "price": "$6.50" },
+    { "name": "Coors Light (355ML Can)", "price": "$6.50" },
+    { "name": "Molson (355ML Can)", "price": "$6.50" },
+    { "name": "Corono Extra (330ML Bottle)", "price": "$6.50" },
+    { "name": "Stellla Artois (330ML Bottle)", "price": "$6.50" },
+    { "name": "Heineken (335ML Bottle)", "price": "$6.50" }
+  ],
+  "hot_drinks": [
+    { "name": "Coffee", "price": "$2.50" },
+    { "name": "Decaf", "price": "$2.50" },
+    { "name": "Black Tea", "price": "$2.50" },
+    { "name": "Chai Tea", "price": "$2.50" },
+    { "name": "Green Tea", "price": "$2.75" },
+    { "name": "Lemon Green Tea", "price": "$2.75" },
+    { "name": "Indian Masala Tea", "price": "$3.50" }
   ],
   "contact_info": {
     "phone": "+1 780-386-0088",

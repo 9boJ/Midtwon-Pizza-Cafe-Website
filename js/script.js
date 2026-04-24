@@ -16,9 +16,10 @@ async function loadMenu() {
             const section = document.createElement('section');
             section.className = 'menu-category';
 
-            // Create a Heading for the category
             const title = document.createElement('h2');
-            title.textContent = category.charAt(0).toUpperCase() + category.slice(1);
+            title.textContent = category
+                .replace(/_/g, ' ')
+                .replace(/\b\w/g, (c) => c.toUpperCase());
             section.appendChild(title);
 
             const grid = document.createElement('div');
