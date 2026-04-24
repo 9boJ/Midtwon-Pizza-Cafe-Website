@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Milkshake illustration</title>
+  <desc id="desc">A stylized milkshake with straw and whipped cream.</desc>
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="58" fill="#ad1457" />
+  <!-- Cup -->
+  <path d="M42 32 H78 L72 92 Q60 98 48 92 Z" fill="#ffe0f7" stroke="#f06292" stroke-width="2" />
+  <!-- Cup stripe -->
+  <path d="M46 58 H74" stroke="#f06292" stroke-width="4" stroke-linecap="round" />
+  <!-- Whipped cream -->
+  <path d="M46 30 Q52 18 60 26 Q68 18 74 30 Z" fill="#ffffff" stroke="#f8bbd0" stroke-width="2" />
+  <!-- Straw -->
+  <path d="M60 18 L70 8" stroke="#ffca28" stroke-width="4" />
+  <path d="M60 18 L62 34" stroke="#ffca28" stroke-width="4" />
+  <!-- Highlights -->
+  <path d="M50 40 Q48 60 52 80" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+</svg>
